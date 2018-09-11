@@ -1,6 +1,7 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Paytone+One');
 @import url('https://fonts.googleapis.com/css?family=Leckerli+One');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 .navbar {
   color: #8CE7F5;
@@ -57,3 +58,12 @@ h1, h2, h3, h3, h4, h5, .navbar {
   border-radius: 0;
 }
 
+.feature {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
