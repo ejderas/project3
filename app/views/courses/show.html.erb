@@ -2,10 +2,11 @@
 
 
 <div class="booyah-box col-10 offset-1">
-    <h1><%= @course.title %></h1>
+    <h1 class="text-center"><%= @course.title %></h1>
   <% if @course.image.present? %>
     <%= image_tag @course.image, class: 'img-fluid' %>
   <% end %>
+    <br />
     <br />
 <div class="row">
   <div class="col-sm-4 col-12 text-center">
@@ -46,7 +47,7 @@
    </div>
 
   <div class="col-sm-8 col-12">
-    <%= @course.description %>
+    <font size="5"><%= @course.description %></font>
   </div>
  </div>
 
